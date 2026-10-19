@@ -1,0 +1,152 @@
+body {
+    background-color: #bcdfe4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    width: 85%;
+    margin: auto;
+}
+
+#botonTema {
+    background-color: #48585c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 1000px;
+}
+
+.encabezado {
+    font-size: 30px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#titulo {
+    color: #245b66;
+    text-decoration: underline;
+}
+
+#foto-principal {
+    width: 490px;
+    height: 400px;
+}
+
+.seccion1{
+    font-size: 20px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.seccion2 {
+    font-size: 20px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.seccion3 {
+    font-size: 20px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.seccion4 {
+    font-size: 20px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.fuentes {
+    font-size: 20px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.bibliografia {
+    font-size: 20px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+#encabezado-bibliografia {
+    color: #245b66;
+}
+
+h2{
+    color: #245b66;
+}
+
+
+#foto-s2-izquierda {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+#foto-s2-derecha {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+
+#foto-derecha {
+    width: 150px;
+    max-width: 35%;
+    float: right;
+    margin: 0 0 10px 15px;
+}
+
+.fotosseccion2 {
+    text-align: center;
+}
+
+.fotosseccion2 img {
+    width: 160px;
+    height: 120px;
+    margin: 10px;
+}
+
+#foto-izquierda {
+    width: 180px;
+    float: left;
+    margin: 15px
+}
+
+.bibliografia a {
+    color: #245b66;
+}
+
+body.tema-oscuro {
+    background-color: #181818;
+    color: #f0f0f0;
+}
+
+body.tema-oscuro .encabezado,
+body.tema-oscuro .seccion1,
+body.tema-oscuro .seccion2,
+body.tema-oscuro .seccion3,
+body.tema-oscuro .seccion4,
+body.tema-oscuro .bibliografia {
+    background-color: #292929;
+}
+
+body.tema-oscuro #titulo,
+body.tema-oscuro h2,
+body.tema-oscuro a {
+    color: #9bd9e3;
+}
